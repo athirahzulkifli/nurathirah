@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Playlist</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      background-image: url(IMAGE318/playlist_background.jpg);
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: black;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 100px; 
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .video-box {
+      width: 100%;
+      max-width: 800px;
+      margin: 30px auto;
+      border: 2px solid #000;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .video-box iframe {
+      width: 100%;
+      height: 450px;
+    }
+
+    .spotify-box {
+      width: 100%;
+      max-width: 800px;
+      margin: 30px auto;
+      border: 2px solid #000;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px 0;
+      font-size: 14px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Updated Navigation Bar Styling */
+    nav {
+      background-color: rgba(255, 182, 193, 0.9);
+      width: 100%;
+      padding: 20px 0;
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+    }
+
+    nav ul li {
+      margin: 0 20px; /* Add space between menu items */
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 5px; /* Rounded edges for links */
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #FF69B4; /* Medium pink hover effect */
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="family.html">Family</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="interest.html">Interest</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Favourite Playlist</h1>
+    
+    <div class="spotify-box">
+      <iframe style="border-radius:12px" 
+              src="https://open.spotify.com/embed/album/0hBRqPYPXhr1RkTDG3n4Mk?utm_source=generator" 
+              width="100%" height="352" 
+              frameborder="0" 
+              allowfullscreen="" 
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+              loading="lazy">
+      </iframe>
+    </div>
+     <h1>Favourite Kdrama </h1>
+    <div class="video-box">
+   <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/lQBmZBJCYcY" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+    </div>
+  </div>
+<center>
+  <a href="gallery.html"><i class="fa-solid fa-backward"></i></a>
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        </center>
+   <br><br>
+  <footer>
+    &copy; 2024 Nur Athirah | All Rights Reserved.
+  </footer>
+
+</body>
+</html>
+
+
